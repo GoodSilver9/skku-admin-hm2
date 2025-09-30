@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const baseURL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+const baseURL =
+  process.env.NEXT_PUBLIC_API_URL ||
+  "https://422ms22pym.us-east-1.awsapprunner.com";
 
 const axiosInstance = axios.create({
   baseURL,
