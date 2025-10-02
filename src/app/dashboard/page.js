@@ -330,7 +330,7 @@ export default function DashboardPage() {
 
                 <Button
                   className="flex items-center gap-2"
-                  onClick={() => router.push("/campus/add")}
+                  onClick={() => router.push("/campuses/add")}
                 >
                   <Plus className="h-4 w-4" />
                   캠퍼스 추가
